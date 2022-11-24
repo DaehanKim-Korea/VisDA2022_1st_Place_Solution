@@ -150,6 +150,3 @@ python -m tools.test /path/to/config/file /path/to/checkpoint.pth --eval mIoU --
   * [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
   * [SegFormer](https://github.com/NVlabs/SegFormer)
   * [DACS](https://github.com/vikolss/DACS)
-
-
-# VisDA2022_Winner_Solution

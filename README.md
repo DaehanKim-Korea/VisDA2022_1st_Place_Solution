@@ -5,7 +5,7 @@ By Daehan Kim, Minseok Seo, Yongjin Jeon, Dong-Geol Choi
 
 I'm working on a minor code fix. Will be updated soon.
 
-[VisDA2022 Challenge Website](https://ai.bu.edu/visda-2022/), [Tech Report](https://ai.bu.edu/visda-2022/)
+[VisDA2022 Challenge Website](https://ai.bu.edu/visda-2022/), [Tech Report](https://arxiv.org/abs/2211.14596)
 
 <h3>:arrow_forward: Requirement</h3>
 

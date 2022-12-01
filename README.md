@@ -146,7 +146,17 @@ python -m tools.model_soup --save_weights '/path/to/model_soup.pth' --weights_in
 python -m tools.test /path/to/config/file /path/to/checkpoint.pth --eval mIoU --show-dir /path/to/output/predictions --opacity 1
 ```
 
-<h3>:arrow_forward: Acknowledgements</h3>
+<h3>:arrow_forward: Citation</h3>
+
+ ```
+  @article{kim20221st,
+    title={1st Place Solution to NeurIPS 2022 Challenge on Visual Domain Adaptation},
+    author={Kim, Daehan and Seo, Minseok and Jeon, YoungJin and Choi, Dong-Geol},
+    journal={arXiv preprint arXiv:2211.14596},
+    year={2022}
+    }
+ ```
+  <h3>:arrow_forward: Acknowledgements</h3>
 
   This project is based on the following open-source projects. We thank their authors for making the source code publically available.
   * [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)

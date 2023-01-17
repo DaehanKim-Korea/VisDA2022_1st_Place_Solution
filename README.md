@@ -3,6 +3,8 @@
 
 By Daehan Kim, Minseok Seo, Yongjin Jeon, Dong-Geol Choi
 
+This repo contains our solution for VisDA2022 challenge at NurIPS2022 Competitions.
+
 [VisDA2022 Challenge Website](https://ai.bu.edu/visda-2022/), [Tech Report](https://arxiv.org/abs/2211.14596)
 
 <h3>:arrow_forward: Requirement</h3>

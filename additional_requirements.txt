@@ -1,0 +1,5 @@
+mmcls
+kornia==0.5.3
+timm 
+prettytable 
+albumentations

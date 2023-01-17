@@ -1,5 +1,5 @@
 
-# VisDA2022_Winner_Solution
+# VisDA2022_1st_Place_Solution
 
 By Daehan Kim, Minseok Seo, Yongjin Jeon, Dong-Geol Choi
 

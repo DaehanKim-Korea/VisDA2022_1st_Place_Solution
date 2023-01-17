@@ -3,8 +3,6 @@
 
 By Daehan Kim, Minseok Seo, Yongjin Jeon, Dong-Geol Choi
 
-I'm working on a minor code fix. Will be updated soon.
-
 [VisDA2022 Challenge Website](https://ai.bu.edu/visda-2022/), [Tech Report](https://arxiv.org/abs/2211.14596)
 
 <h3>:arrow_forward: Requirement</h3>
@@ -28,16 +26,15 @@ I'm working on a minor code fix. Will be updated soon.
   
   
 <h3>:arrow_forward: Prepare datasets (option-b) *recommended</h3>
-  
-  ```shell
-    1. wget https://www.dropbox.com/s/ombq7do3sirbgcc/zerowastev1.zip?dl=0
-    2. wget https://www.dropbox.com/s/a6jzs5530m63gmd/zerowastev2.zip?dl=0
-    3. unzip zerowastev1.zip zerowastev2.zip #it is recommended to extract it from the following path: data/
-  ```
-  
+
+  1. ZeroWaste V1: Please, download zerowaste-f.zip (7 G) from <a href="https://drive.google.com/drive/folders/1dhFVzGCzguPJ7OY5HYkMpBm7eUziiI2C?usp=share_link" target="_blank">here</a> and extract them to <code>data/</code>
+
+  2. ZeroWaste V2: Please, download zerowaste-v2-trainval.zip (12 G) from <a href="https://drive.google.com/drive/folders/1G7KqYfMVS0OwcZeAROsRyHIG4XGPi9Oa?usp=share_link" target="_blank">here</a> and extract it to <code>data/</code>.
+
 If you have completed option-a or option-b, double-check the folder structure below.
-  
+
 ```shell
+
 <data>
 |-- <zerowaste-f> #it is not shown in option-b.
     |-- <train>
@@ -73,12 +70,12 @@ The result of the leaderboard experiment is model soup.
 
 |experiment|weights|logs|
 |------|---|---|
-|UDA|:arrow_down:<a href="https://www.dropbox.com/s/o9ahjk84jvit6lo/self_training_init.pth?dl=0" target="_blank">Download</a>|:arrow_down:<a href="https://www.dropbox.com/s/9h35xrg0gg8h3vu/20221001_183605.log.json?dl=0" target="_blank">Download</a>|
-|Self-training Aug-A|:arrow_down:<a href="https://www.dropbox.com/s/ggssct6uupfmrxw/Aug_A.pth?dl=0" target="_blank">Download</a>|:arrow_down:<a href="https://www.dropbox.com/s/cnmnvgl4xphyktt/20221005_065551.log.json?dl=0" target="_blank">Download</a>|
-|Self-training Aug-B|:arrow_down:<a href="https://www.dropbox.com/s/vtlggg222cwro1d/Aug_B.pth?dl=0" target="_blank">Download</a>|:arrow_down:<a href="https://www.dropbox.com/s/i7eejyyf0bksixs/20221005_065600.log.json?dl=0" target="_blank">Download</a>|
-|Self-training Aug-C|:arrow_down:<a href="https://www.dropbox.com/s/ujtoe3ec9ci7p4h/Aug_C.pth?dl=0" target="_blank">Download</a>|:arrow_down:<a href="https://www.dropbox.com/s/62fuswmprk27bil/20221005_065609.log.json?dl=0" target="_blank">Download</a>|
-|Model soup|:arrow_down:<a href="https://www.dropbox.com/s/8yodretu0mldybf/model_soup.pth?dl=0" target="_blank">Download</a>||
-|Pseudo-Labels|:arrow_down:<a href="https://www.dropbox.com/s/faugl9zwicgavgm/Pseudo_Labels.zip?dl=0" target="_blank">Download</a> ||
+|UDA|:arrow_down:<a href="https://drive.google.com/file/d/16WT_jfTiYTiz0P8RNJVvwc1JiwlA2u5a/view?usp=share_link" target="_blank">Download</a>|:arrow_down:<a href="https://drive.google.com/file/d/1_ROTiRY1azWxWYCbMysm2n58s_za4n-m/view?usp=share_link" target="_blank">Download</a>|
+|Self-training Aug-A|:arrow_down:<a href="https://drive.google.com/file/d/1ZU9Y5PqTyIhmc-qBb5cqCcn5wvi65l_5/view?usp=share_link" target="_blank">Download</a>|:arrow_down:<a href="https://drive.google.com/file/d/1g0fb-8sMb_k-ACjchica2_WDt-0-KnhO/view?usp=share_link" target="_blank">Download</a>|
+|Self-training Aug-B|:arrow_down:<a href="https://drive.google.com/file/d/1q-B7a-TT3lMLpt8aCG4paEuPhpcSJaRj/view?usp=share_link" target="_blank">Download</a>|:arrow_down:<a href="https://drive.google.com/file/d/1EaO04Gf0dF2X8ohE-H8Qc7gT3dhZB8Pa/view?usp=share_link" target="_blank">Download</a>|
+|Self-training Aug-C|:arrow_down:<a href="https://drive.google.com/file/d/1SexQofZNd96McRhEX5eDk6q9RMnD0-Pm/view?usp=share_link" target="_blank">Download</a>|:arrow_down:<a href="https://drive.google.com/file/d/1tS0v_LTwrPfN7xKo1pn1bsnSHjB9VIPz/view?usp=share_link" target="_blank">Download</a>|
+|Model soup|:arrow_down:<a href="https://drive.google.com/file/d/1DY-SJFJH8aKUyIi_0vhO4nKlt6QnMfvi/view?usp=share_link" target="_blank">Download</a>||
+|Pseudo-Labels|:arrow_down:<a href="https://drive.google.com/file/d/1xPclLgbkUQ7V_37zbBoI6Be7TQSFU0bw/view?usp=share_link" target="_blank">Download</a> ||
 
 or 
 
@@ -122,7 +119,7 @@ python -m tools.model_soup --save_weights '/path/to/model_soup.pth' --weights_in
  It takes about 3 hours on RTX8000 x 1. *(splitting it into 3 GPUs makes it run faster)
  
  
- <U>**_Download the <a href="https://www.dropbox.com/s/faugl9zwicgavgm/Pseudo_Labels.zip?dl=0" target="_blank">pseudo-labels</a>, <a href="https://www.dropbox.com/s/o9ahjk84jvit6lo/self_training_init.pth?dl=0" target="_blank">self_training_init_weights(UDA weights)</a> and set the dataset path before processing with the script below._**</U>
+ <U>**_Download the <a href="https://drive.google.com/file/d/1xPclLgbkUQ7V_37zbBoI6Be7TQSFU0bw/view?usp=share_link" target="_blank">pseudo-labels</a>, <a href="https://drive.google.com/file/d/16WT_jfTiYTiz0P8RNJVvwc1JiwlA2u5a/view?usp=share_link" target="_blank">self_training_init_weights(UDA weights)</a> and set the dataset path before processing with the script below._**</U>
   
  ```shell
  

@@ -148,12 +148,18 @@ python -m tools.test /path/to/config/file /path/to/checkpoint.pth --eval mIoU --
 <h3>:arrow_forward: Citation</h3>
 
  ```
-  @article{kim20221st,
-    title={1st Place Solution to NeurIPS 2022 Challenge on Visual Domain Adaptation},
-    author={Kim, Daehan and Seo, Minseok and Jeon, YoungJin and Choi, Dong-Geol},
-    journal={arXiv preprint arXiv:2211.14596},
-    year={2022}
-    }
+ @article{bashkirova2023visda,
+  title={VisDA 2022 Challenge: Domain Adaptation for Industrial Waste Sorting},
+  author={Bashkirova, Dina and Mishra, Samarth and Lteif, Diala and Teterwak, Piotr and Kim, Donghyun and Alladkani, Fadi and Akl, James and Calli, Berk and Bargal, Sarah Adel and Saenko, Kate and others},
+  journal={arXiv preprint arXiv:2303.14828},
+  year={2023}
+}
+@article{kim20221st,
+  title={1st Place Solution to NeurIPS 2022 Challenge on Visual Domain Adaptation},
+  author={Kim, Daehan and Seo, Minseok and Jeon, YoungJin and Choi, Dong-Geol},
+  journal={arXiv preprint arXiv:2211.14596},
+  year={2022}
+}
  ```
   <h3>:arrow_forward: Acknowledgements</h3>
 
